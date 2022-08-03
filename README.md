@@ -19,4 +19,6 @@ lambda <-- anonimus function https://www.programiz.com/python-programming/anonym
 
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.equals.html
 
+# 30 solutions
 
+# 32 Reading data from csv
