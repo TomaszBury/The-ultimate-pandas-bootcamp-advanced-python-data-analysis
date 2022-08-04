@@ -21,4 +21,18 @@ https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.equals.
 
 # 30 solutions
 
-# 32 Reading data from csv
+# 33 Reading data from csv
+
+# 34 Series Sizing With .size .shape ANd len()
+
+https://www.programiz.com/python-programming/methods/list/reverse
+
+https://pbpython.com/pandas_dtypes.html
+
+# 36 count() method
+
+# 37 Accessing and counting NA's
+
+## Pandorable <-- adorable and involving pandas
+
+alcohol.isna().sum() == alcohol.isnull().sum()
