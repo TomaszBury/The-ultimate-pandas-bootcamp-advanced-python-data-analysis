@@ -36,3 +36,6 @@ https://pbpython.com/pandas_dtypes.html
 ## Pandorable <-- adorable and involving pandas
 
 alcohol.isna().sum() == alcohol.isnull().sum()
+
+# 38 BONUS: Another Approach
+
