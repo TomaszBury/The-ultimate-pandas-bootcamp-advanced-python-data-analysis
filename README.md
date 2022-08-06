@@ -39,3 +39,26 @@ alcohol.isna().sum() == alcohol.isnull().sum()
 
 # 38 BONUS: Another Approach
 
+# 39 The Other Side: notnull() and notna()
+
+# 40 BONSU: Booleans are literally number in Python
+
+# 41 Skill Challenge
+
+# 43 Dropping and filling NAs
+
+# 44 Descriptice statistic
+
+https://en.wikipedia.org/wiki/Quantile
+
+alcohol.describe()
+
+# 45 Describe() Method
+
+from math import sqrt
+sqrt()
+
+# 46 mode() and value_counts()
+
+alcohol.value_counts(normalize=True).head(n=17)
+
