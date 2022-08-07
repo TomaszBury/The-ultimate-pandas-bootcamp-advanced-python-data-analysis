@@ -62,3 +62,30 @@ sqrt()
 
 alcohol.value_counts(normalize=True).head(n=17)
 
+# 47: idxmax() & idxmin()
+
+# 48 Sorting with sort_values()
+
+alcohol.sort_values(ascending=False, na_position='first')
+
+**alcohol.sort_values(ascending=False, na_position='last', kind='quicksort').head(n=1) <-- best one**
+
+alcohol.sort_values(ascending=False, na_position='first', kind='mergesort').head(n=1)
+
+alcohol.sort_values(ascending=False, na_position='first', kind='heapsort').head(n=3)
+
+# 49 nlargest() and nsmallest()
+
+# 50 Sorting with sort_index()
+
+# 51 Skill Challenge
+
+## 52 Solution
+
+# 53 basic math Series arithmetics and fill_value()
+
+# 54 Bonus: Calculating Varaince and Standard Deviation
+
+# 55 Cumulative Operations
+
+
