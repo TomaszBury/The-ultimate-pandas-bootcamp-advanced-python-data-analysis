@@ -86,6 +86,70 @@ alcohol.sort_values(ascending=False, na_position='first', kind='heapsort').head(
 
 # 54 Bonus: Calculating Varaince and Standard Deviation
 
-# 55 Cumulative Operations
+# 55 Cumulative Operations 
 
+sum()
+
+alcohol.cumsum()
+
+alcohol.cumprod()
+
+# 56 Pairwise Differences with diff()
+
+# 57 Iteration Series
+
+for i, v in mini_alc.items():
+    print(f'Index:{i}, value:{v}')
+
+# 58 Filtering: filter(), where(), and mask()
+
+## filter on index:
+
+alcohol.filter(regex='^V') 
+
+alcohol.filter(like='stan') **<- like in SQL>**
+
+## fileter on values:
+
+alcohol.get(alcohol > 200)
+
+def gt200(x): return x > 200
+
+alcohol[gt200]
+
+### replace with corresponding value when condition is FALSE
+
+alcohol.where(lambda x: x > 200, other='Too small.')
+
+alcohol.where(lambda x:x>200, other=pd.NA) <-default  NaN>
+
+alcohol.where(lambda x:x>200).dropna()
+
+### replace with corresponding value when condition is TRUE
+
+alcohol.where(lambda x:x<=200).dropna()
+
+alcohol.mask(lambda x:x>200).dropna()
+
+# 59 Transforming with update(), apply(), map()
+
+## Spot change
+
+alcohol.update(pd.Series(data=[200,20], index=['Albania','Andorra']))
+
+## global change
+
+alcohol.apply(lambda x:x**2)
+
+alcohol.apply(np.square) <-vectorized operations >
+
+https://www.pythonlikeyoumeanit.com/Module3_IntroducingNumpy/VectorizedOperations.html
+
+def multiply_by_self(x): return x*x
+
+alcohol.apply(multiply_by_self)
+
+## substituting each values in a Series with another values
+
+### in siple transformations apply & map is the same for more advanced transformation use apply
 
