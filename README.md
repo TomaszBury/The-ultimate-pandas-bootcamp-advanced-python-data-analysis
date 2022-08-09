@@ -153,3 +153,14 @@ alcohol.apply(multiply_by_self)
 
 ### in siple transformations apply & map is the same for more advanced transformation use apply
 
+# 60 Sill Challenge
+
+pip install scipy
+
+https://stackoverflow.com/questions/24761998/pandas-compute-z-score-for-all-columns
+
+https://pandas.pydata.org/docs/user_guide/visualization.html
+
+
+
+
