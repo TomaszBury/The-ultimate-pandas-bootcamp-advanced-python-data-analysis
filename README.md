@@ -161,6 +161,13 @@ https://stackoverflow.com/questions/24761998/pandas-compute-z-score-for-all-colu
 
 https://pandas.pydata.org/docs/user_guide/visualization.html
 
+# 67 Creating a DataFrame
 
+### **ValueError: All arrays must be of the same length**
 
+# 68 Bonus - Four more ways to build DataFrames
+
+The enumerate function
+
+ZIP
 
