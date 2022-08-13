@@ -170,4 +170,18 @@ https://pandas.pydata.org/docs/user_guide/visualization.html
 The enumerate function
 
 ZIP
+# 69 
+
+# 70 
+
+data_url = 'https://gist.githubusercontent.com/sh7ata/56976975b3c67caabb2efd80bb3a8467/raw/f1b7d2abf6770548edafee58ea15be71e2d28aac/Nutrition.csv'
+
+# 71 DataFrames
+
+# 72 Sample() method
+
+nutrition.sample(frac=0.01) <-- fraction of data>
+
+
+# 73 Bonus - sapling with replacement or weights
 
