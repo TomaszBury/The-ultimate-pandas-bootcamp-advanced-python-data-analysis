@@ -185,3 +185,44 @@ nutrition.sample(frac=0.01) <-- fraction of data>
 
 # 73 Bonus - sapling with replacement or weights
 
+# 74 BONUS - How are random numbers generated
+
+https://www.random.org
+
+https://en.wikipedia.org/wiki/Mersenne_Twister
+
+# 75 DataFrames Axes
+
+nutrition.axis
+
+nutrition.columns
+
+nutrition.index
+
+### nutrition.dropna(axis=)
+### 0 == rows
+### 1 == columns
+
+# 76 Changing the index
+
+nutrition.set_index('folic_acid', drop=False, append=True, verify_integrity=False, inplace=True)
+
+nutrition.index = pd.RangeIndex(start=0, stop=8789, step=1)
+
+# 77 Extracting from DataFram by Label
+
+nutrition.loc['Eggplant, raw', 'calories']
+
+nutrition.loc['Eggplant, raw']['calories']
+
+nutrition.loc['Eggplant, raw':'Sherbet, orange', 'calories':'cholesterol']
+
+nutrition.iloc[2:4,5:6]
+
+nutrition.loc[['Raspberries, raw'],['protein','vitamin_b6']]
+
+nutrition.loc[
+    ['Raspberries, raw', 'Blackberries, raw'],
+    ['protein','vitamin_b6','water']
+]
+
