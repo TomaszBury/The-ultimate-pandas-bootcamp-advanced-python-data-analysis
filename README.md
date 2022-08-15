@@ -226,3 +226,7 @@ nutrition.loc[
     ['protein','vitamin_b6','water']
 ]
 
+# 78 DataFrame Extraction by Position
+
+nutrition.iloc[[4,5,6],:] <- select all columns>
+
