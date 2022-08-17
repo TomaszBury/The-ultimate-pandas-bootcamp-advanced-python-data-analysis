@@ -232,3 +232,7 @@ nutrition.iloc[[4,5,6],:] <- select all columns>
 
 # 79 Single Value Access With .at and .iat
 
+%timtimeit
+
+# 80 BONUS - The get_loc() Method
+
