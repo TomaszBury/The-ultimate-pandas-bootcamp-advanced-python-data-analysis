@@ -182,7 +182,6 @@ data_url = 'https://gist.githubusercontent.com/sh7ata/56976975b3c67caabb2efd80bb
 
 nutrition.sample(frac=0.01) <-- fraction of data>
 
-
 # 73 Bonus - sapling with replacement or weights
 
 # 74 BONUS - How are random numbers generated
@@ -235,4 +234,8 @@ nutrition.iloc[[4,5,6],:] <- select all columns>
 %timtimeit
 
 # 80 BONUS - The get_loc() Method
+
+# 81 Skill challenge
+
+# 82 Sollution
 
