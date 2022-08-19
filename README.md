@@ -239,3 +239,14 @@ nutrition.iloc[[4,5,6],:] <- select all columns>
 
 # 82 Sollution
 
+# 83 Start of cleanup: Going Numeric
+
+# 84 The astype() method
+
+# 85 DataFrame replace() + A Flimpse at Regex
+
+dfm.replace(to_replace='100 g',value=100)
+
+regex -> regular expressions **https://regex101.com**
+
+**dfm.replace(to_replace='\sg', value='', regex=True)**
