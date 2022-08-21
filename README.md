@@ -253,3 +253,18 @@ regex -> regular expressions **https://regex101.com**
 
 # 86 Part I: Collecting the Units
 
+# 87  The raname() method
+
+df.rename(columns={'wieght':'Weight (kg)'}, index={0:'Pikachu',1:'Andy'}, inplace=True)
+
+df.rename(mapper={'height': 'Height (m)'},axis='columns')
+
+# 88 DataFrame dropna()
+
+df.dropna(how='any',axis=0)
+
+df.dropna(how='all', axis=0)
+
+df.dropna(thresh=3, axis=0)
+
+df.dropna(thresh=df.shape[1], axis=1)
