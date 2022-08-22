@@ -268,3 +268,6 @@ df.dropna(how='all', axis=0)
 df.dropna(thresh=3, axis=0)
 
 df.dropna(thresh=df.shape[1], axis=1)
+
+# 89 BONUS dropna()
+
