@@ -273,3 +273,11 @@ df.dropna(thresh=df.shape[1], axis=1)
 
 # 89 Part II Merging Units with column names
 
+# 90
+
+# 91 Part III Removing units fro mvalues
+
+# 92 Filtering in 2D
+
+# 93 Data Frame sorting
+
