@@ -283,3 +283,7 @@ df.dropna(thresh=df.shape[1], axis=1)
 
 # 94 Using Series between() with DataFrames
 
+# 95 Min, Max and idx[MinMax]
+
+# 96 DataFrame nlargest() and nsmallest()
+
