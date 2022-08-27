@@ -287,3 +287,7 @@ df.dropna(thresh=df.shape[1], axis=1)
 
 # 96 DataFrame nlargest() and nsmallest()
 
+# 97 Skill challenge
+
+# 98 Solution
+
