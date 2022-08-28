@@ -291,3 +291,11 @@ df.dropna(thresh=df.shape[1], axis=1)
 
 # 98 Solution
 
+# 99 Another skill Challenge
+
+# 100 Solution
+
+# 101 Section recap notebook
+
+## 102 Section intro
+
