@@ -299,3 +299,10 @@ df.dropna(thresh=df.shape[1], axis=1)
 
 ## 102 Section intro
 
+## 103 Intrducing a new dataset
+
+## 104 Quick Review: Indexing with boolean masks
+
+## 105
+
+## 106 Binary operators with booleans
