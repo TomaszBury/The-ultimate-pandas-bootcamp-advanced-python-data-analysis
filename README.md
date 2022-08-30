@@ -306,3 +306,6 @@ df.dropna(thresh=df.shape[1], axis=1)
 ## 105
 
 ## 106 Binary operators with booleans
+
+## 107 BONUS - XOR and Complement Binary Ops
+
