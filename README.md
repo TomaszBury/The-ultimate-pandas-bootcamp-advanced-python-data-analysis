@@ -311,3 +311,9 @@ df.dropna(thresh=df.shape[1], axis=1)
 
 ### 108 Combining Conditions
 
+### 109 Conditions as Variables
+
+### 110 Skill challenge
+
+### 111 Solution
+
