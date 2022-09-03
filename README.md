@@ -285,35 +285,40 @@ df.dropna(thresh=df.shape[1], axis=1)
 
 # 95 Min, Max and idx[MinMax]
 
-# 96 DataFrame nlargest() and nsmallest()
+## 96 
 
-# 97 Skill challenge
+## 97 DataFrame nlargest() and nsmallest()
 
-# 98 Solution
+## 98 Skill challenge
 
-# 99 Another skill Challenge
+## 99 Solution
 
-# 100 Solution
+## 100 Skill challenge
 
-# 101 Section recap notebook
+## 101 Solution
 
-## 102 Section intro
+## 102 Section recap notebook
 
-## 103 Intrducing a new dataset
+## 103 Section intro
 
-## 104 Quick Review: Indexing with boolean masks
+## 104 Intrducing a new dataset
 
-## 105
+## 105 Quick review: indexing with boolean masks
 
-## 106 Binary operators with booleans
+## 106 More approaches to boolean masking
 
-## 107 BONUS - XOR and Complement Binary Ops
+## 107 Binary operators with booleans
 
-### 108 Combining Conditions
+### 108 BONUS - XOR and Complement Binary Ops
 
-### 109 Conditions as Variables
+### 109 Combining Conditions
 
-### 110 Skill challenge
+### 110 Conditions as Variables
 
-### 111 Solution
+### 111 Skill challenge
 
+### 112 Solution
+
+### 113 2d indexing
+
+### 
