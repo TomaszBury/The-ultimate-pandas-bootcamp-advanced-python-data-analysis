@@ -321,4 +321,16 @@ df.dropna(thresh=df.shape[1], axis=1)
 
 ### 113 2d indexing
 
-### 
+### 114
+
+### 115 Sorting by index or columns
+
+### 116 Sorting vs Reordering
+
+### 117 BONUS - Another Way
+
+### 118 BONUS Please Avoid Sorting like this
+
+### 119 Skill Challenge
+
+### 120 Solution

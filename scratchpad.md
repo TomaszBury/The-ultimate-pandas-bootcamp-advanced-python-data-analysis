@@ -17,3 +17,8 @@ players.loc[players.age.le(25)] == players.loc[players.age <= 25]
 >  .gt()
 >= .ge()
 == .eq()
+
+data_url = 'https://andybek.com/pandas-soccer'
+
+players.reindex(index=index_players, columns=sorted(players.columns))
+
