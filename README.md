@@ -334,3 +334,14 @@ df.dropna(thresh=df.shape[1], axis=1)
 ### 119 Skill Challenge
 
 ### 120 Solution
+
+### 121 indentifying duplicates
+
+### 122 removing duplicates
+
+### 123 Removing DataFrame Rows
+
+### 124 BONUS - Removing Columns
+
+### 125 BOUNS - Another way: pop()
+
