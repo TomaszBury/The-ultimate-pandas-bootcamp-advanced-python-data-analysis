@@ -345,3 +345,12 @@ df.dropna(thresh=df.shape[1], axis=1)
 
 ### 125 BOUNS - Another way: pop()
 
+### 126 BONUS - A sophisticated alternative
+
+### 127 NULL values in data frames
+
+### 128 Dropping and filling DataFrame NAs
+
+### 129 BONUS - Methods and Axes with fillna()
+
+### 

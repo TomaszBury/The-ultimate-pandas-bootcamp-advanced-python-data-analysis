@@ -22,3 +22,11 @@ data_url = 'https://andybek.com/pandas-soccer'
 
 players.reindex(index=index_players, columns=sorted(players.columns))
 
+unwanted_columns = ['name', 'position', 'position_cat']
+
+players.reindex(columns=set(players.columns).difference(unwanted_rows))
+
+
+unwanted_rows = [1,2,3,4]
+
+players.reindex(index=set(players.index).difference(unwanted_rows))
