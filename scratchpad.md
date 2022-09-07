@@ -30,3 +30,10 @@ players.reindex(columns=set(players.columns).difference(unwanted_rows))
 unwanted_rows = [1,2,3,4]
 
 players.reindex(index=set(players.index).difference(unwanted_rows))
+
+players.loc[players.isna().values].drop_duplicates()
+
+df2.nationality.nunique()
+
+df2 = players.drop(index=[2,10,21], columns='market_value')
+
