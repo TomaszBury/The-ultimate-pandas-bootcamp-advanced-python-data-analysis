@@ -37,3 +37,5 @@ df2.nationality.nunique()
 
 df2 = players.drop(index=[2,10,21], columns='market_value')
 
+players.select_dtypes(np.number).agg(['min','max','mean'])
+
