@@ -39,3 +39,9 @@ df2 = players.drop(index=[2,10,21], columns='market_value')
 
 players.select_dtypes(np.number).agg(['min','max','mean'])
 
+def random_case(x):
+
+    funcs = [x.str.swapcase, x.str.lower, x.str.title, x.str.upper]
+    
+    return choice(funcs)()
+
