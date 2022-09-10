@@ -45,3 +45,5 @@ def random_case(x):
     
     return choice(funcs)()
 
+players.loc[460, [dtype != object for dtype in players.dtypes]]
+
