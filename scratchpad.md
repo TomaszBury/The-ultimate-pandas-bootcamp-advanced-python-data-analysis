@@ -47,3 +47,5 @@ def random_case(x):
 
 players.loc[460, [dtype != object for dtype in players.dtypes]]
 
+# at[] and iat[] should be preferred for single value assignment
+
