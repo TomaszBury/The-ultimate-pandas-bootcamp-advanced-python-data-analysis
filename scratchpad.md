@@ -55,4 +55,5 @@ df_mini.assign(career_goals=[12,67,179,49])
 
 pd.concat(dfs, ignore_index=True).drop_duplicates(subset=['School Name'])
 
-pd.concat([ivies2, eng2], verify_integrity=True)
+pd.concat([ivies, eng4], join='inner', ignore_index=True, verify_integrity=True)
+
