@@ -57,3 +57,6 @@ pd.concat(dfs, ignore_index=True).drop_duplicates(subset=['School Name'])
 
 pd.concat([ivies, eng4], join='inner', ignore_index=True, verify_integrity=True)
 
+pd.merge(ivies, regions, how='inner', on='School Name')
+
+
