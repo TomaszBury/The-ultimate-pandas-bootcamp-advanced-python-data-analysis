@@ -59,4 +59,15 @@ pd.concat([ivies, eng4], join='inner', ignore_index=True, verify_integrity=True)
 
 pd.merge(ivies, regions, how='inner', on='School Name')
 
+# 180. - The anatomy of a multiindex object
+
+tech.index.names
+
+tech.index.levels
+
+**tech.index.nlevels**
+
+tech.index.levels[0]
+
+tech.index.levshape
 
