@@ -71,3 +71,5 @@ tech.index.levels[0]
 
 tech.index.levshape
 
+tech.reorder_levels([2,1,0])
+
