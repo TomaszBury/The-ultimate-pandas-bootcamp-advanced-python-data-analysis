@@ -73,3 +73,17 @@ tech.index.levshape
 
 tech.reorder_levels([2,1,0])
 
+tech.reset_index(level=['date','name'], drop=False)
+
+tech.sort_index(inplace=True)
+
+tidx.is_monotonic_increasing
+
+tidx.sortlevel(0,ascending=False, sort_remaining=True)
+
+tidx.sortlevel((0,1,2), ascending=[False,True,False])
+
+tidx.set_names(['Treading Date','Volume Category','Ticker'], inplace=True)
+
+tidx.to_flat_index()
+
