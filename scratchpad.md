@@ -87,3 +87,8 @@ tidx.set_names(['Treading Date','Volume Category','Ticker'], inplace=True)
 
 tidx.to_flat_index()
 
+tech.stack()
+
+stacked.unstack(level='Ticker', fill_value='-')
+
+
