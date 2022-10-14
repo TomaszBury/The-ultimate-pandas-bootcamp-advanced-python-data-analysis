@@ -91,4 +91,6 @@ tech.stack()
 
 stacked.unstack(level='Ticker', fill_value='-')
 
+**tech.describe()**
+
 
