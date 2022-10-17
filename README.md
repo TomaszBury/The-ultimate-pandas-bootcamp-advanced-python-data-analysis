@@ -370,3 +370,8 @@ df.dropna(thresh=df.shape[1], axis=1)
 ## 137 solution
 
 # **End of file note**
+
+### **End was just a lie**
+
+https://en.wikipedia.org/wiki/Lazy_evaluation
+

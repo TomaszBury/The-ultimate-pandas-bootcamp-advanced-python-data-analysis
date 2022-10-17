@@ -93,4 +93,13 @@ stacked.unstack(level='Ticker', fill_value='-')
 
 **tech.describe()**
 
+platform_names = {
+    'PS3':'PlayStation',
+    'PS4':'PlayStation',
+    'X360':'XBox',
+    'XOne':'XBox'
+}
+
+sales.set_index('Platform').groupby(platform_names).sum()
+
 
