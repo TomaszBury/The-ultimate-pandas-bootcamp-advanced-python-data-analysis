@@ -102,4 +102,5 @@ platform_names = {
 
 sales.set_index('Platform').groupby(platform_names).sum()
 
+sales.groupby('Platform').get_group('PS3')
 
