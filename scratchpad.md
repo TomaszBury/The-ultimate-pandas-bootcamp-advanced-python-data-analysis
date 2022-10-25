@@ -104,3 +104,13 @@ sales.set_index('Platform').groupby(platform_names).sum()
 
 sales.groupby('Platform').get_group('PS3')
 
+studios.groupby(studios_groupby).agg(['sum','mean','std','count'])
+
+studios.groupby(studios_groupby).agg(studios_aggregation).rename({'sum':'Total_revenue','count':'number_games'},axis=1)
+
+studios.groupby(studios_groupby).agg(
+    Total_revenue=('Global_Sales','sum'), 
+    Number_of_games=('Global_Sales',np.mean),
+    Revenue_std=('Global_Sales','std'),
+    Revenue_avg=('Global_Sales','mean'))
+
