@@ -114,3 +114,6 @@ studios.groupby(studios_groupby).agg(
     Revenue_std=('Global_Sales','std'),
     Revenue_avg=('Global_Sales','mean'))
 
+# Running cells with 'Python 3.11.0 64-bit' requires ipykernel package.
+# Run the following command to install 'ipykernel' into the Python environment. 
+# Command: 'python.exe -m pip install ipykernel -U --user --force-reinstall'
