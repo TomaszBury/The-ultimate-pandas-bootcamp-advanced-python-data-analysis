@@ -117,3 +117,9 @@ studios.groupby(studios_groupby).agg(
 # Running cells with 'Python 3.11.0 64-bit' requires ipykernel package.
 # Run the following command to install 'ipykernel' into the Python environment. 
 # Command: 'python.exe -m pip install ipykernel -U --user --force-reinstall'
+
+import ssl
+
+ssl._create_default_https_context = ssl._create_unverified_context
+
+# It is alive!
