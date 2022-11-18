@@ -8,3 +8,10 @@ String parse time:
 from dateutil import parser
 parser.parse('22 april 2068 at 4pm and 17 minutes 20 seconds')
 ```
+
+[TimeStamp](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Timestamp.html) <-- doc
+
+```python
+pd.Timestamp('4/7/1776')
+pd.to_datetime('4/7/1776',dayfirst=True)
+```
