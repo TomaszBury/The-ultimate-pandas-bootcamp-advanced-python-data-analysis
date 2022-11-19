@@ -15,3 +15,7 @@ parser.parse('22 april 2068 at 4pm and 17 minutes 20 seconds')
 pd.Timestamp('4/7/1776')
 pd.to_datetime('4/7/1776',dayfirst=True)
 ```
+
+```python
+pd.read_csv(oil_url, index_col=0, parse_dates=True)
+```
