@@ -26,9 +26,13 @@ pd.to_datetime('4/7/1776',dayfirst=True)
 pd.read_csv(oil_url, index_col=0, parse_dates=True)
 ```
 
+# Links:
+
+[keyboard-shortcuts-macos.pdf](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 
 [Next line in markdown line](https://learn.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance?view=azure-devops#markdown-files-or-widgets)
 
+----
 
 ```
 two spaces and then enter.
@@ -45,3 +49,16 @@ two spaces and then enter.
 
 > 2th second time?   
 >> and the last time the first line.  
+
+```python
+!pip show seaborn
+```
+
+```python
+!pip install seaborn
+Use '%pip install' instead of '!pip install'Jupyter
+
+```
+
+
+
