@@ -60,5 +60,6 @@ Use '%pip install' instead of '!pip install'Jupyter
 
 ```
 
-
-
+```bash
+python3 -m notebook
+```
