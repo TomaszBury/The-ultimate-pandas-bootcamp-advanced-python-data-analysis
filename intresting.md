@@ -63,3 +63,9 @@ Use '%pip install' instead of '!pip install'Jupyter
 ```bash
 python3 -m notebook
 ```
+
+```python
+import ssl
+
+ssl._create_default_https_context = ssl._create_unverified_context
+```
