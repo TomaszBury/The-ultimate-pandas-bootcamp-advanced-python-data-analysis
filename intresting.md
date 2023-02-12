@@ -3,10 +3,10 @@ import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 ```
 
-
 String parse time:
 
 `datetime.strptime()`
+
 
 [Formating](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes) <-- The following is a list of all the format codes that the 1989 C standard requires, and these work on all platforms with a standard C implementation.
 
@@ -65,7 +65,7 @@ python3 -m notebook
 ```
 
 ```python
-import ssl
+from IPython.display import display, HTML
 
-ssl._create_default_https_context = ssl._create_unverified_context
+display(HTML(hobbies.to_html()))
 ```
